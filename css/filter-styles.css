@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/************************************GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Kameron');
+
+
+/************************************GLOBAL*/
+body {
+    font-family: 'Kameron', serif;
+	background: url(../images/site/bg-site.jpg) center center fixed no-repeat;
+	background-size:cover;
+}
+a {
+	text-decoration: none;
+}
+#logo {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/**************************************LAYOUT*/
+/*CONTAINER*/
+.container {
+	width: 70%;
+	margin:2% 0 2% 2%;
+}
+.container p {
+	width: 80%;
+	font-size: 120%;
+}
+
+
+
+
+
+
+/***********************MEDIA QUERIES******/
+
+@media screen and (max-width:480px) {
+/*LAYOUT*/
+.container {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+	.portfolioContainer img, .portfolioContainer div {
+		display:block;
+		width:100%!important;
+		height: auto;
+	}
+	.portfolioContainer {
+	width:90%!important;
+	padding-left:1%;
+}
+	.portfolioFilter a {
+		display: block;
+	}
+
+}
